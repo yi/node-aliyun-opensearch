@@ -1,0 +1,35 @@
+{
+  "name": "aliyun-opensearch",
+  "version": "1.0.0",
+  "description": "NodeJS module for aliyun opensearch",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi/node-aliyun-opensearch.git"
+  },
+  "author": "Yi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yi/node-aliyun-opensearch/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "watch": "coffee -o ./lib/ -cw ./src/",
+    "coffee": "coffee -o ./lib/ -cw ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "0.2.10",
+    "underscore": "1.5.2",
+    "debug": "0.8.1",
+    "request": ">=2.45.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.8.0",
+    "nodemon": "latest"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/yi/node-aliyun-opensearch#readme"
+}
